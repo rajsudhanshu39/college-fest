@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechFest 2027 | Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Student Registration</h1><p>Be a part of TechFest 2027</p></header>
+  <nav>
+    <a href="index.html">Home</a><a href="events.html">Events</a>
+    <a href="schedule.html">Schedule</a><a href="register.html">Register</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <h2>Registration Form</h2>
+    <form action="#" method="get">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone">
+
+      <label for="department">Department:</label>
+      <select id="department" name="department">
+        <option value="">Select department</option>
+        <option>Computer Science</option><option>Electronics</option>
+        <option>Mechanical</option><option>Management</option><option>Other</option>
+      </select>
+
+      <p>Year of Study:</p>
+      <label class="choice"><input type="radio" name="year" value="1st Year"> 1st Year</label>
+      <label class="choice"><input type="radio" name="year" value="2nd Year"> 2nd Year</label>
+      <label class="choice"><input type="radio" name="year" value="3rd Year"> 3rd Year</label>
+      <label class="choice"><input type="radio" name="year" value="4th Year"> 4th Year</label>
+
+      <p>Choose your events:</p>
+      <label class="choice"><input type="checkbox" name="events" value="Code Sprint"> Code Sprint</label>
+      <label class="choice"><input type="checkbox" name="events" value="Robo Race"> Robo Race</label>
+      <label class="choice"><input type="checkbox" name="events" value="Quiz Quest"> Quiz Quest</label>
+      <label class="choice"><input type="checkbox" name="events" value="Web Design"> Web Design</label>
+      <label class="choice"><input type="checkbox" name="events" value="Gaming Arena"> Gaming Arena</label>
+
+      <label for="message">Any message or question:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">Submit Registration</button>
+    </form>
+    <p class="note">This is a practice HTML form. It does not send information to a server.</p>
+  </main>
+  <footer><p>© 2027 TechFest</p></footer>
+</body>
+</html>

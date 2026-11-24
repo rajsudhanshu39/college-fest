@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+<rect width="600" height="400" rx="24" fill="#e4f0ff"/>
+<circle cx="300" cy="170" r="105" fill="#ffd166"/>
+<path d="M300 70 L325 145 L405 145 L340 192 L365 270 L300 222 L235 270 L260 192 L195 145 L275 145 Z" fill="#ef7d32"/>
+<rect x="70" y="290" width="460" height="55" rx="12" fill="#123b68"/>
+<text x="300" y="326" font-family="Arial" font-size="30" text-anchor="middle" fill="white" font-weight="bold">TECHFEST 2027</text>
+<circle cx="105" cy="90" r="18" fill="#2a9d8f"/><circle cx="495" cy="90" r="18" fill="#2a9d8f"/>
+<path d="M90 210 l25 -35 25 35z M460 210 l25 -35 25 35z" fill="#20558b"/>
+</svg>
